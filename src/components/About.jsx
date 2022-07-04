@@ -4,7 +4,7 @@ export default function About(){
     return(
         <div>
             <h4>CONTACTAME</h4>
-            <p>Mandame un mail guachin</p>
+            <p>Mandame un mail guachinn</p>
         </div>
     )
 }
