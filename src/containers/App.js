@@ -105,13 +105,13 @@ useEffect(() => {
   
   
   
-  const [rosario, setRosario] = useState("rosario");
+  //const [rosario, setRosario] = useState("rosario");
 
 
 
-  useEffect(() => {
-    onSearch(rosario);
-  }, [rosario]); 
+  //useEffect(() => {
+   // onSearch(rosario);
+  //}, [rosario]); 
 
   
 

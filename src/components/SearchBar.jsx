@@ -35,7 +35,7 @@ export default function SearchBar({onSearch}) {
         return user.name.match(regex)
       })
     }
-    console.log(matches)
+    //console.log(matches)
     setSuggestiones(matches.slice(0,15))
     setCity(city)
   }
