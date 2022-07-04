@@ -101,22 +101,17 @@ useEffect(() => {
         return null;
     }
   }
-  const rosario = "rosario"
-  const buenosaires = "buenos aires"
-  const cordoba = "cordoba"
   
   
   
- 
+  
+  const [rosario, setRosario] = useState("rosario");
 
 
-  //useEffect(() => {
-    //onSearch(rosario);
-    //onSearch(buenosaires);
-    //onSearch(cordoba)
-   // 
-  ///  
- // }, []); 
+
+  useEffect(() => {
+    onSearch(rosario);
+  }, [rosario]); 
 
   
 
