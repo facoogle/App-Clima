@@ -110,13 +110,13 @@ useEffect(() => {
  
 
 
-  useEffect(() => {
-    onSearch(rosario);
-    onSearch(buenosaires);
-    onSearch(cordoba)
-    
-    
-  }, []); 
+  //useEffect(() => {
+    //onSearch(rosario);
+    //onSearch(buenosaires);
+    //onSearch(cordoba)
+   // 
+  ///  
+ // }, []); 
 
   
 
